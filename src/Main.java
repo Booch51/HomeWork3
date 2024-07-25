@@ -10,7 +10,8 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
-        }System.out.println("Задача 1");
+        }
+        System.out.println("Задача 1");
         byte x = -100;
         System.out.println("Значение переменной Х с типом byte равно " + x);
         short y = 2150;
@@ -28,7 +29,7 @@ public class Main {
         short d = 569;
         short f = -159;
         int g = 27897;
-        long b = 987678965549l;
+        long b = 987678965549L;
         float a = 27.12f;
         double c = 2.786f;
         System.out.println("Задача 3");
@@ -36,7 +37,7 @@ public class Main {
         byte studentAS = 27;
         byte studentKA = 30;
         short totalPaper = 480;
-        int studentPaper = totalPaper/(studentLP + studentAS + studentKA);
+        int studentPaper = totalPaper / (studentLP + studentAS + studentKA);
         System.out.println("На каждого ученика расчитано " + studentPaper + " листов бумаги.");
         System.out.println("Задача 4");
         byte bottleMinute = 16 / 2;
@@ -66,7 +67,7 @@ public class Main {
         byte aggs = 4;
         int weightAggs = aggs * 70;
         double totalGram = weightBananas + weightMilk + weightIceCream + weightAggs;
-        double totalKilo = (weightBananas + weightMilk + weightIceCream + weightAggs)/1000;
+        double totalKilo = (weightBananas + weightMilk + weightIceCream + weightAggs) / 1000;
         System.out.println("Вес спортзавтрака " + totalGram + " грамм или " + totalKilo + " килограмм.");
         System.out.println("Задача 7");
         byte slimKilo = 7;
@@ -79,20 +80,19 @@ public class Main {
         System.out.println("Задача 8");
         int incomeMashaMonth = 67760;
         double riseIncomeMashaMonth = incomeMashaMonth * 0.1;
-        double incomeMashaYear = incomeMashaMonth + riseIncomeMashaMonth;
+        double incomeMashaMonthNew = incomeMashaMonth + riseIncomeMashaMonth;
         double riseIncomeMashaYear = riseIncomeMashaMonth * 12;
-        System.out.println("Маша теперь получает " + incomeMashaYear + " рублей. Годовой доход вырос на " + riseIncomeMashaYear + " рублей.");
+        System.out.println("Маша теперь получает " + incomeMashaMonthNew + " рублей. Годовой доход вырос на " + riseIncomeMashaYear + " рублей.");
         int incomeDenisMonth = 83690;
         double riseIncomeDenisMonth = incomeDenisMonth * 0.1;
-        double incomeDenisYear = incomeDenisMonth + riseIncomeDenisMonth;
+        double incomeDenisMonthNew = incomeDenisMonth + riseIncomeDenisMonth;
         double riseIncomeDenisYear = riseIncomeDenisMonth * 12;
-        System.out.println("Денис теперь получает " + incomeDenisYear + " рублей. Годовой доход вырос на " + riseIncomeDenisYear + " рублей.");
+        System.out.println("Денис теперь получает " + incomeDenisMonthNew + " рублей. Годовой доход вырос на " + riseIncomeDenisYear + " рублей.");
         int incomeKristiMonth = 76230;
         double riseIncomeKristiMonth = incomeKristiMonth * 0.1;
-        double incomeKristiYear = incomeKristiMonth + riseIncomeKristiMonth;
+        double incomeKristiMonthNew = incomeKristiMonth + riseIncomeKristiMonth;
         double riseIncomeKristiYear = riseIncomeKristiMonth * 12;
-        System.out.println("Маша теперь получает " + incomeKristiYear + " рублей. Годовой доход вырос на " + riseIncomeKristiYear + " рублей.");
-
+        System.out.println("Маша теперь получает " + incomeKristiMonthNew + " рублей. Годовой доход вырос на " + riseIncomeKristiYear + " рублей.");
 
 
     }
